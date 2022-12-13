@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&family=Lato:wght@300;400&display=swap');
+
+* {
+  font-family: "Lato", sans-serif;
+  color: rgb(102, 102, 102);
+}
+
+h3 {
+  font-weight: 400;
+}
+body {
+  margin: 70px;
+  background-image: url('img/fondo.jpg');
+  background-position: center;   
+}
+
+
+.formulario {
+  margin: 70px auto;
+  max-width: 40%;
+  background-color: rgb(238, 243, 243);
+  padding: 40px;
+  opacity: 0.87;
+}
