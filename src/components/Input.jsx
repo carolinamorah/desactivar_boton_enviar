@@ -3,9 +3,10 @@ import React from "react";
 function Input({setAbled}) {
     
     const validarEstado = value => {
-        if(value === "252525")
-            setAbled(true)
-        else
+        if(value === "252525"){
+            setAbled(true);
+            return
+        }
             setAbled(false)
     }
 
